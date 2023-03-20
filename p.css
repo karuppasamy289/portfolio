@@ -200,6 +200,7 @@ align-items: center;
     align-items: center;
     overflow: hidden;
     flex-wrap: wrap;
+    gap: 6vh;
   
   }
   button{
@@ -215,9 +216,7 @@ align-items: center;
     /* border: 6px solid navajowhite; */
     transition: 2s all;
   }
-  .fade1:hover{
-    border: 3px solid darkcyan; 
-  }
+ 
   
   .fade{
     height:50vh;
@@ -487,4 +486,14 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  #sside{
+    width: 20vh;
+    height: 18vh;
+  }
+
+  #w2{
+    width: 30vh;
+    height: 18vh;
   }
