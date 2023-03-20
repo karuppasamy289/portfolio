@@ -1,10 +1,10 @@
 createPath('scratch');
   function createPath(type){
 
-    let bid=["js","mt","side","wed","nngg"];
+    let bid=["sr","js","mt","side","wed","nngg"];
 
     for(let g=0;g<bid.length;g++){
-      document.getElementById("sr").style.background="#F0EBE3";
+      document.getElementById(bid[g]).style.background="#F0EBE3";
     }
 
     let id=["v1","v2","v3"];
@@ -21,7 +21,6 @@ createPath('scratch');
    
     if(type=="scratch"){
       document.getElementById("sr").style.background="#ECF2FF";
-      
       console.log("scratch");
       let names=["Fibonacci sequence ","Arithmetic progression ","Stop watch"]
       let arr=["https://scratch.mit.edu/projects/719638954","https://scratch.mit.edu/projects/716443578","https://scratch.mit.edu/projects/717399838"];
@@ -35,7 +34,6 @@ createPath('scratch');
     else if(type=="js"){
       console.log("js")
       document.getElementById("js").style.background="#ECF2FF";
-      
       document.getElementById("js").style.background="#ECF2FF";
       let names=["Classic nim","Number conversion","Tic Tac Toe"];
       let arr=["https://project-submission.karuppasamyr.repl.co","https://number-convertion.karuppasamyr.repl.co","https://tic-tac-toe.karuppasamyr.repl.co"]; 
@@ -49,7 +47,6 @@ createPath('scratch');
     }
     else if(type=="mtd"){
       document.getElementById("mt").style.background="#ECF2FF";
-     
       console.log("emtered manual")
       let names=["Book my show","Make my trip","Flipcart"];
       let arr=["https://sheet.zoho.com/sheet/open/s0tmbc39b29c89985427fbb56f2f07d143232?sheetid=0&range=A1","https://sheet.zoho.com/sheet/open/5gu9yf9ae4377d3184383ac20dadfade79fc9?sheetid=0&range=A1","https://sheet.zoho.com/sheet/open/5gu9yfbc532fad33247848920b2e528586218?sheetid=0&range=C20"]
@@ -64,7 +61,6 @@ createPath('scratch');
     else if(type=="ide"){
       console.log(1234);
       document.getElementById("side").style.background="#ECF2FF";
-      
       let idesrc=["LBB.png","fk.png","mz.png"];
       let names=["Fashoin Website","Flipcart","Maruti Suzuki"];
       let arr=["https://workdrive.zoho.com/file/5gu9y7a8f59b5331744c4b88279bb0e97b8eb","https://workdrive.zoho.com/file/5gu9ya3912433fdff4bd0a03fb41f296884c6","https://workdrive.zoho.com/file/5gu9y9212d8b441e0499e9ce4580d6be6416a"]
@@ -79,8 +75,7 @@ createPath('scratch');
     }
     else if(type=="wd"){
       document.getElementById("wed").style.background="#ECF2FF";
-     
-      console.log("entered webdriver")
+      console.log("entered webdriver");
       let wdsrc=["am1.jpg","insta.jpg","ibaco1.png"];
       let names=["Amazon","Instagram","Ibaco"];
       let arr=["https://workdrive.zoho.com/file/5gu9y0a30e053240f49b591396878707cca8c","https://workdrive.zoho.com/file/5gu9y2f2043973b3c414a92ec1f9673c336e7","https://workdrive.zoho.com/file/5gu9ye74b8f076ff44c3580f1d44c3f8a7432"];
@@ -95,7 +90,6 @@ createPath('scratch');
     }
     else if(type="ng"){
       document.getElementById("nngg").style.background="#ECF2FF";
-      
       let names=["Google sites","Google classroom and forms","Youtube"];
       let ysrc=["gs1.png","ggs.png","yt.png"];
       let arr=["https://workdrive.zoho.com/file/sfmkwc9c27027de754bd3b8c02c0f2329c8c8","https://workdrive.zoho.com/file/sfmkw2cb16155634b4a85a9165ba92a9697a0","https://workdrive.zoho.com/file/sfmkw232db35d4fe947d1a3d608a8196c29ee"];
