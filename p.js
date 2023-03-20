@@ -87,9 +87,9 @@ createPath('scratch');
       document.getElementById("wed").style.border="1px solid black";
       document.getElementById("wed").style.borderRadius="3px";
       console.log("entered webdriver");
-      let wdsrc=["Elavate.png","insta.jpg","ibaco1.png"];
-      let names=["Elevate game","Instagram","Ibaco"];
-      let arr=["https://workdrive.zoho.com/file/8yvzra6752b6358614d69b21119a09163823b","https://workdrive.zoho.com/file/5gu9y2f2043973b3c414a92ec1f9673c336e7","https://workdrive.zoho.com/file/5gu9ye74b8f076ff44c3580f1d44c3f8a7432"];
+      let wdsrc=["Elavate.png","insta.jpg","creator.png"];
+      let names=["Elevate game","Instagram","Zoho creator"];
+      let arr=["https://workdrive.zoho.com/file/8yvzra6752b6358614d69b21119a09163823b","https://workdrive.zoho.com/file/5gu9y2f2043973b3c414a92ec1f9673c336e7","https://workdrive.zoho.com/file/8yvzr6cde84a78bbb42cd82697db118060f61"];
       for(let t=0;t<3;t++){
         document.getElementById(id[t]).style.backgroundImage="url('"+wdsrc[t]+"')";
         document.getElementById("name"+(t+1)).style.background="#F9F9F9";
