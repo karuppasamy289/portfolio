@@ -479,3 +479,12 @@ align-items: center;
     border:0.1 px solid black;
     padding: 2px;
   }
+
+  .types>h3{
+    /* font-size: 2vh; */
+    height: 5vh;
+    width: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
