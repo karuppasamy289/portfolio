@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     user-select: none;
+    /* background-color: lightyellow; */
   }
  
 .header {
@@ -146,7 +147,7 @@ align-items: center;
     height: 10vh;
     width: 75vh;
    font-size: 5vh;
-   border-bottom: 1px solid black;
+   /* border-bottom: 1px solid black; */
    display: flex;
     justify-content: center;
     align-items: center;
@@ -167,7 +168,7 @@ align-items: center;
   .par2{
     height: 90vh;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,11 +187,14 @@ align-items: center;
   .he1{
     width: 100%;
     height: 10vh;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 5vh;
+  }
+  #pr{
+    font-size: 4.5vh;
   }
   .f{
     height: 65vh;
@@ -233,7 +237,7 @@ align-items: center;
 }
   .mySlides {
   width: 30vh;
-  height: 25vh;
+  height: 26.5vh;
   }
 
   .lll{
@@ -251,7 +255,7 @@ align-items: center;
   .pn{
     height: 10vh;
     width: 100%;
-    border-bottom: 1px solid black;
+    /* border: 1px solid red; */
     font-size: 5vh;
     display: flex;
     justify-content: center;
@@ -498,4 +502,44 @@ align-items: center;
   #w2{
     width: 30vh;
     height: 18vh;
+  }
+
+  .range{
+    width: 100%;
+    height: 3vh;
+    border-radius: 1vh;
+    border:1px solid black;
+  }
+  .rangee{
+    width: 100%;
+    height: 5vh;
+    border-radius: 1vh;
+    border:1px solid black;
+  }
+  #ngr{
+    height: 100%;
+    width: 90%;
+    background-color: lightseagreen;
+    border-radius: 1vh;
+  }
+
+  #wbr{
+    height: 100%;
+    width: 90%;
+    background-color: lightseagreen;
+    border-radius: 1vh;
+  }
+
+  #ider{
+    height: 100%;
+    width: 90%;
+    background-color: lightseagreen;
+    border-radius: 1vh;
+  }
+
+  #jr{
+    height: 100%;
+    width: 60%;
+    background-color: lightseagreen;
+    border-radius: 1vh;
   }
