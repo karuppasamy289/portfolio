@@ -1,4 +1,4 @@
-createPath('scratch');
+createPath('ng');
   function createPath(type){
 
     let bid=["sr","js","mt","side","wed","nngg"];
