@@ -284,9 +284,9 @@ align-items: center;
   }
 
   .sh{
-    width: 40vh;
-    height: 40vh;
-    /* border: 1px solid black; */
+    width: 35vh;
+    height: 35vh;
+    border: 1px solid black;
     border-radius: 10px;
     display:flex;
     align-items: center;
