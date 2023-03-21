@@ -343,7 +343,7 @@ align-items: center;
   }
 
   .layer{
-    width:85%;
+    width:80%;
     height:0%;
     background:linear-gradient(rgba(0,0,0,0.6),rgb(128, 173, 160));
     border-radius:10px;

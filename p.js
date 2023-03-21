@@ -13,11 +13,11 @@ createPath('ng');
 
     let t1=["t1","t2","t3"];
 
-    let scratchsrc=["fb1.png","ap.png","swt.jpg"];
+    let scratchsrc=["fibonacci.png","apg.jpg","swt.jpg"];
 
-    let jssrc=["nnnnn.png","unnamed.png","ttt.png"];
+    let jssrc=["cropnim.jpg","hex.png","x3.png"];
 
-    let mtdsrc=["bms.png","MakeMyTrip-Logo.png","fk.png"];
+    let mtdsrc=["h.png","newmmt.png","fk.png"];
 
     let aid=["link1","link2","link3"];
    
@@ -70,7 +70,7 @@ createPath('ng');
       document.getElementById("side").style.background="#FAF5EF";
       document.getElementById("side").style.border="1px solid black";
       document.getElementById("side").style.borderRadius="3px";
-      let idesrc=["LBB.png","fk.png","mz.png"];
+      let idesrc=["sss1.png","fk.png","11aa.png"];
       let names=["Fashoin Website","Flipcart","Maruti Suzuki"];
       let arr=["https://workdrive.zoho.com/file/5gu9y7a8f59b5331744c4b88279bb0e97b8eb","https://workdrive.zoho.com/file/5gu9ya3912433fdff4bd0a03fb41f296884c6","https://workdrive.zoho.com/file/5gu9y9212d8b441e0499e9ce4580d6be6416a"]
       for(let t=0;t<3;t++){
@@ -87,7 +87,7 @@ createPath('ng');
       document.getElementById("wed").style.border="1px solid black";
       document.getElementById("wed").style.borderRadius="3px";
       console.log("entered webdriver");
-      let wdsrc=["Elavate.png","insta.jpg","creator.png"];
+      let wdsrc=["Elavate.png","insta.jpg","cc1.jpg"];
       let names=["Elevate game","Instagram","Zoho creator"];
       let arr=["https://workdrive.zoho.com/file/8yvzra6752b6358614d69b21119a09163823b","https://workdrive.zoho.com/file/5gu9y2f2043973b3c414a92ec1f9673c336e7","https://workdrive.zoho.com/file/8yvzr6cde84a78bbb42cd82697db118060f61"];
       for(let t=0;t<3;t++){
@@ -104,7 +104,7 @@ createPath('ng');
       document.getElementById("nngg").style.border="1px solid black";
       document.getElementById("nngg").style.borderRadius="3px";
       let names=["Google sites","Google classroom and forms","Youtube"];
-      let ysrc=["gs1.png","ggs.png","yt.png"];
+      let ysrc=["im4.png","gc1.jpg","ytt.png"];
       let arr=["https://workdrive.zoho.com/file/sfmkwc9c27027de754bd3b8c02c0f2329c8c8","https://workdrive.zoho.com/file/sfmkw2cb16155634b4a85a9165ba92a9697a0","https://workdrive.zoho.com/file/sfmkw232db35d4fe947d1a3d608a8196c29ee"];
       for(let t=0;t<3;t++){
         document.getElementById(id[t]).style.backgroundImage="url('"+ysrc[t]+"')";
